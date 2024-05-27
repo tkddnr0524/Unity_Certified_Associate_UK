@@ -330,7 +330,10 @@
 "Assets/Script/Animal.cs"
 "Assets/Script/ArrayCode.cs"
 "Assets/Script/HelloCode.cs"
+"Assets/Script/Jumper.cs"
 "Assets/Script/Main.cs"
+"Assets/Script/PlayerController.cs"
+"Assets/Script/Zoo.cs"
 -langversion:9.0
 
 /deterministic
