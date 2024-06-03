@@ -36,4 +36,9 @@ public class PlayerController : MonoBehaviour
         playerRigidbody.velocity = newVelocity;
 
     }
+
+    public void Die()
+    {
+        Destroy(gameObject);
+    }
 }
