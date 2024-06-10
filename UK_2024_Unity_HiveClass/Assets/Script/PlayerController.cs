@@ -39,6 +39,12 @@ public class PlayerController : MonoBehaviour
 
     public void Die()
     {
+        //씬에 존재하는 GameManager 타입의 오브젝트를 찾아서 가져오기
+        GameManager gameManager = FindObjectOfType<GameManager>();
+
+        //가져온 GameManager 오브젝의 EndGame() 메서드를 실행
+        gameManager.EndGame();
+
         Destroy(gameObject);
     }
 }
